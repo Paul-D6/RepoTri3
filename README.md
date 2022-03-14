@@ -1,4 +1,4 @@
-# RepoTri3
+# RepoTri3 - Paul DiPasquale
 
 ## Notes
 ### 5.1
@@ -19,4 +19,4 @@
 - An undecidable problem may have some instances that have an algorithmic solution, but there is no algorithmic solution that could solve all instances of the problem
 
 Replit
-[Website](https://replit.com/@PaulDiPasquale/algorithms#main.py)
+##### [Website](https://replit.com/@PaulDiPasquale/algorithms#main.py)
