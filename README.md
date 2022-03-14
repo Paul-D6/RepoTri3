@@ -23,11 +23,32 @@ Replit
 https://replit.com/@PaulDiPasquale/RepoTri3#main.py
 <img src="file:///var/folders/7v/l1wjfwh113bb0fxfgtfbdpxr0000gn/T/TemporaryItems/(A%20Document%20Being%20Saved%20By%20screencaptureui%202)/Screen%20Shot%202022-03-14%20at%202.03.35%20PM.png">
 
+Animation Function
+- The function used a loop to print out the different location of the img
+
+Tree function
+- In this function, I used a a loop to print out each layer of the tree, they. all had a different format so I had to change variables as I went trhough the loop.
+- There was a different number of spaces of and stars that were changed throughout the function
+```def main():
+  stars = 1
+  numspace = 5
+
+  while stars < 7:
+    space = " " * numspace
+    row = "* " * stars
+    print(space + row)
+    stars += 1
+    numspace -= 1
+  print((" " * 4)+("*" * 3))
+  print((" " * 4)+("*" * 3))
+
+if __name__ == "__main__":
+    main()```
 ## Create Task
 - Planning
 - Responses
 - - [x] Instructions for input: User will be able to select whether or not they would like to add a book to their wishlist. There will be 5 options to choose from that the user will decide on
-- [x] Use of at least 1 list: The books that will be prompted will be from a question list. A list will also be created as the user decides on the books that they like.(push-js)
+- - [x] Use of at least 1 list: The books that will be prompted will be from a question list. A list will also be created as the user decides on the books that they like.(push-js)
 - - [x] At least 1 procedure: The procedure will be taking the input from a user and the function will produce a list of books that they wanted to add to their wishlist
 - - [x] An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure: The function runs through a loop that adds questions to a list and shuffles them. There will be different parts to this and only certain action will occur when  specific conditions are met. Ex: If the user likes the book, the function will add it to a list.
 - - [x] Calls to your student-developed procedure: the "next" button will switch to different question and allow the user to decide on the next book they want to add
