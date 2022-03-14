@@ -24,14 +24,30 @@ https://replit.com/@PaulDiPasquale/RepoTri3#main.py
 <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3#main.py?embed=true"></iframe>
 
 
-Animation Function
-- The function used a loop to print out the different location of the img
+Menu Bar
+- This is my menu bar where I added all my functions from different files of my replit
+- There is also a submenu that will access the code from a file called "Challenges"
+
+```
+main_menu = [
+  ["Swap", "swap.py"],
+  ["Matrix", "matrix.py"],
+]
+
+# Submenu list of [Prompt, Action]
+# Works similarly to main_menu
+sub_menu = [
+  ["Christmas Tree", tree.main],
+  ["Animation", animate.main]
+]
+```
 
 Tree function
 - In this function, I used a a loop to print out each layer of the tree, they. all had a different format so I had to change variables as I went trhough the loop.
 - There was a different number of spaces of and stars that were changed throughout the function
 
-```def main():
+```
+def main():
   stars = 1
   numspace = 5
 
@@ -50,6 +66,7 @@ if __name__ == "__main__":
     
 ## Create Task
 - Planning
+- - Idea is still being determined
 - Responses
 - - [x] Instructions for input: User will be able to select whether or not they would like to add a book to their wishlist. There will be 5 options to choose from that the user will decide on
 - - [x] Use of at least 1 list: The books that will be prompted will be from a question list. A list will also be created as the user decides on the books that they like.(push-js)
