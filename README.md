@@ -1,5 +1,4 @@
-# RepoTri3 - Paul DiPasquale
-
+# Paul DiPasquale
 ## Notes
 ### 5.1
 - People create computing innovations
