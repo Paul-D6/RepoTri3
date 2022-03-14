@@ -1,4 +1,5 @@
 # Paul DiPasquale
+##### [Link to Github page](https://paul-d6.github.io/RepoTri3/)
 ## Notes
 ### 5.1
 - People create computing innovations
@@ -26,7 +27,7 @@
 - - An empowered person can help a non-empowered person by helping them solve problems that they would not normally be able to address. At DNHS, something I could do is build a website that benefits a group of people that may not be able to create one themselves.
 - - I think paper and red tape does contribute to blocking digital empowerment. At Del Norte, for example, certain websites are blocked by the school wifi (“red tape”). This blocks potentially useful sites, which could prevent certain classes from being digitally empowered. Paper is also used in some of my classes mainly, which prevents the classes from advancing technologically and becoming digitally empowered.
 
-##Replit
+## Replit
 
 ##### [Website](https://replit.com/@PaulDiPasquale/algorithms#main.py)
 https://replit.com/@PaulDiPasquale/RepoTri3#main.py
