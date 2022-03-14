@@ -21,7 +21,8 @@
 Replit
 ##### [Website](https://replit.com/@PaulDiPasquale/algorithms#main.py)
 https://replit.com/@PaulDiPasquale/RepoTri3#main.py
-<iframe src="file:///var/folders/7v/l1wjfwh113bb0fxfgtfbdpxr0000gn/T/TemporaryItems/(A%20Document%20Being%20Saved%20By%20screencaptureui%202)/Screen%20Shot%202022-03-14%20at%202.03.35%20PM.png">
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3#main.py"></iframe>
+
 
 Animation Function
 - The function used a loop to print out the different location of the img
