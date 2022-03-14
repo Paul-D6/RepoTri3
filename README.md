@@ -21,7 +21,7 @@
 Replit
 ##### [Website](https://replit.com/@PaulDiPasquale/algorithms#main.py)
 https://replit.com/@PaulDiPasquale/RepoTri3#main.py
-<img src="file:///var/folders/7v/l1wjfwh113bb0fxfgtfbdpxr0000gn/T/TemporaryItems/(A%20Document%20Being%20Saved%20By%20screencaptureui%202)/Screen%20Shot%202022-03-14%20at%202.03.35%20PM.png">
+<iframe src="file:///var/folders/7v/l1wjfwh113bb0fxfgtfbdpxr0000gn/T/TemporaryItems/(A%20Document%20Being%20Saved%20By%20screencaptureui%202)/Screen%20Shot%202022-03-14%20at%202.03.35%20PM.png">
 
 Animation Function
 - The function used a loop to print out the different location of the img
@@ -29,6 +29,7 @@ Animation Function
 Tree function
 - In this function, I used a a loop to print out each layer of the tree, they. all had a different format so I had to change variables as I went trhough the loop.
 - There was a different number of spaces of and stars that were changed throughout the function
+
 ```def main():
   stars = 1
   numspace = 5
@@ -43,7 +44,9 @@ Tree function
   print((" " * 4)+("*" * 3))
 
 if __name__ == "__main__":
-    main()```
+    main() 
+   ```
+    
 ## Create Task
 - Planning
 - Responses
