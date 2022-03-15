@@ -31,7 +31,7 @@
 
 ##### [Website](https://replit.com/@PaulDiPasquale/algorithms#main.py)
 https://replit.com/@PaulDiPasquale/RepoTri3#main.py
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3#main.py?embed=true" >
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3?embed=true" >
 
 
 Menu Bar
