@@ -1,5 +1,8 @@
 # Paul DiPasquale
 ##### [Link to Github page](https://paul-d6.github.io/RepoTri3/)
+{% include navbar.html %}
+
+
 ## Notes
 ### 5.1
 - People create computing innovations
