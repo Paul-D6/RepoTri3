@@ -85,3 +85,10 @@ if __name__ == "__main__":
 - - [x] An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure: The function runs through a loop that adds questions to a list and shuffles them. There will be different parts to this and only certain action will occur when  specific conditions are met. Ex: If the user likes the book, the function will add it to a list.
 - - [x] Calls to your student-developed procedure: the "next" button will switch to different question and allow the user to decide on the next book they want to add
 - - [x] Instructions for output (tactile, audible, visual, or textual) based on input program functionality: The output will be a textual list of books that the user created
+<table>
+    <tr>
+        <td><a href="https://paul-d6.github.io/RepoTri3/">Home</a></td>
+        <td><a href="https://paul-d6.github.io/RepoTri3/notes">Data Structures Project</a></td>
+    </tr>
+</table>
+<hr>
