@@ -91,4 +91,3 @@ if __name__ == "__main__":
         <td><a href="https://paul-d6.github.io/RepoTri3/notes">Data Structures Project</a></td>
     </tr>
 </table>
-<hr>
