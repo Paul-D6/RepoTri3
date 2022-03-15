@@ -1,6 +1,13 @@
+{% include navbar.html %}
+
+
 # Paul DiPasquale
 ##### [Link to Github page](https://paul-d6.github.io/RepoTri3/)
-## Notes
+
+{% include navbar.html %}
+
+
+## Notess
 ### 5.1
 - People create computing innovations
 - The way people complete tasks often changes to incorporate new computing innovations
@@ -91,4 +98,3 @@ if __name__ == "__main__":
         <td><a href="https://paul-d6.github.io/RepoTri3/notes">Data Structures Project</a></td>
     </tr>
 </table>
-<hr>
