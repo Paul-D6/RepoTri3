@@ -1,7 +1,5 @@
 {% include navbar.html %}
 
-<<<<<<< HEAD:forgitpages/notes.md
-=======
 # Paul DiPasquale
 ##### [Link to Github page](https://paul-d6.github.io/RepoTri3/)
 
