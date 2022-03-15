@@ -1,4 +1,4 @@
-{% include navbar.html %}
+{% navbar.html %}
 
 
 # Paul DiPasquale
