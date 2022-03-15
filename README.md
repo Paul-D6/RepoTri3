@@ -5,7 +5,7 @@
 
 
 
-## Notess
+## Notes
 ### 5.1
 - People create computing innovations
 - The way people complete tasks often changes to incorporate new computing innovations
