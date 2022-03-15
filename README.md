@@ -1,9 +1,13 @@
-# Paul DiPasquale
-##### [Link to Github page](https://paul-d6.github.io/RepoTri3/)
 {% include navbar.html %}
 
 
-## Notes
+# Paul DiPasquale
+##### [Link to Github page](https://paul-d6.github.io/RepoTri3/)
+
+{% include navbar.html %}
+
+
+## Notess
 ### 5.1
 - People create computing innovations
 - The way people complete tasks often changes to incorporate new computing innovations
