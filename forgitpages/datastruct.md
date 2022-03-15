@@ -3,7 +3,8 @@
 ## Replit
 
 ##### [Website](https://replit.com/@PaulDiPasquale/algorithms#main.py)
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3?embed=true" >
+
+##### Replit at bottom of page
 
 
 #### Menu Bar
@@ -47,4 +48,5 @@ def main():
 if __name__ == "__main__":
     main() 
    ```
-    
+
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3?embed=true" >
