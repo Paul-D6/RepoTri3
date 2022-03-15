@@ -19,9 +19,9 @@
 - An undecidable problem may have some instances that have an algorithmic solution, but there is no algorithmic solution that could solve all instances of the problem
 ### Question Responses
 - 5.1
-- - One benefit is that people cand find ways to automate aspects of life using programs. The harm in this is that people will become lazy and rely on computers to do everything for them.
-- - A benefit is that communication is faster and more efficient between devices. The harm in this is that people will be more likely to use digital communication rather than in person interaction.
-- - I think that dopamine issues are very real, especially for high school students with heavy work loads. Students may be more inclined to relax and give themselves some down time in between assignments than to focus and get their work done. I am distracted by YouTube and other platforms on my phone when trying to do my homework sometimes, which makes it take longer. It is a problem that probably many people face, and we need to learn to overcome it.
+- - A benefit is people can use computers to supplement life skills so they will not have to do it. The downside in this is, is that people will become reliant on computers and some people might loose their job.
+- - A benefit is that communication is a lot faster which allows people to be updated in a short amount of time. The negative affect on this is people will be more likely to stop the traditional, personal interaction and prefer to communicate digitally.
+- - I would say that dopamine issues are very real, especially for people that have a lot of work. These people would rather give themselves more breaks in between assignments than to focus and get their work done. I am personally distracted with social media and other applications on my phone when trying to get my work done sometimes It is a serious problem that almost everyone faces, and could affect the amount of time something gets done.
 - 5.2
 - - To empower yourself in the digital world, one must be willing to use technology in useful, innovative ways. Utilizing their skills to solve problems and benefit others is a great example of what makes someone empowered. Being empowered in the digital world also requires someone to have access to technology and internet services, and due to the digital divide, not everyone does.
 - - An empowered person can help a non-empowered person by helping them solve problems that they would not normally be able to address. At DNHS, something I could do is build a website that benefits a group of people that may not be able to create one themselves.
@@ -30,7 +30,6 @@
 ## Replit
 
 ##### [Website](https://replit.com/@PaulDiPasquale/algorithms#main.py)
-https://replit.com/@PaulDiPasquale/RepoTri3#main.py
 <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3?embed=true" >
 
 
