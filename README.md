@@ -1,10 +1,8 @@
-{% include navbar.html %}
 
 
 # Paul DiPasquale
 ##### [Link to Github page](https://paul-d6.github.io/RepoTri3/)
 
-{% include navbar.html %}
 
 
 ## Notess
@@ -30,9 +28,9 @@
 - - A benefit is that communication is a lot faster which allows people to be updated in a short amount of time. The negative affect on this is people will be more likely to stop the traditional, personal interaction and prefer to communicate digitally.
 - - I would say that dopamine issues are very real, especially for people that have a lot of work. These people would rather give themselves more breaks in between assignments than to focus and get their work done. I am personally distracted with social media and other applications on my phone when trying to get my work done sometimes It is a serious problem that almost everyone faces, and could affect the amount of time something gets done.
 - 5.2
-- - To empower yourself in the digital world, one must be willing to use technology in useful, innovative ways. Utilizing their skills to solve problems and benefit others is a great example of what makes someone empowered. Being empowered in the digital world also requires someone to have access to technology and internet services, and due to the digital divide, not everyone does.
-- - An empowered person can help a non-empowered person by helping them solve problems that they would not normally be able to address. At DNHS, something I could do is build a website that benefits a group of people that may not be able to create one themselves.
-- - I think paper and red tape does contribute to blocking digital empowerment. At Del Norte, for example, certain websites are blocked by the school wifi (“red tape”). This blocks potentially useful sites, which could prevent certain classes from being digitally empowered. Paper is also used in some of my classes mainly, which prevents the classes from advancing technologically and becoming digitally empowered.
+- - To empower yourself in the digital world, it is ideal to use technology in innovative ways. By using their skills to solve problems and benefit others, it is a great example of what makes someone empowered. Being empowered in the digital world also requires someone to have access to technology and internet services, and due to the digital divide, not everyone does.
+- - An empowered person can help a non-empowered person by helping them solve problems that they would originally not be able to solve. For example, I could build a website or platform that benefits a people in a way that people. could not have. done. before.
+- - I think paper and red tape does contribute to blocking digital empowerment. At school, there are certain websites that are blocked by the wifi (“red tape”). The websites could potentially be usefull and they prevent certain classes from being digitally empowered. Paper is also used in certain feilds of study, which prevents the classes from becoming digitally empowered.
 
 ## Replit
 
@@ -92,9 +90,3 @@ if __name__ == "__main__":
 - - [x] An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure: The function runs through a loop that adds questions to a list and shuffles them. There will be different parts to this and only certain action will occur when  specific conditions are met. Ex: If the user likes the book, the function will add it to a list.
 - - [x] Calls to your student-developed procedure: the "next" button will switch to different question and allow the user to decide on the next book they want to add
 - - [x] Instructions for output (tactile, audible, visual, or textual) based on input program functionality: The output will be a textual list of books that the user created
-<table>
-    <tr>
-        <td><a href="https://paul-d6.github.io/RepoTri3/">Home</a></td>
-        <td><a href="https://paul-d6.github.io/RepoTri3/notes">Data Structures Project</a></td>
-    </tr>
-</table>
