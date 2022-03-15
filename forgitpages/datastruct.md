@@ -6,7 +6,7 @@
 <iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3?embed=true" >
 
 
-Menu Bar
+#### Menu Bar
 - This is my menu bar where I added all my functions from different files of my replit
 - There is also a submenu that will access the code from a file called "Challenges"
 
@@ -24,7 +24,7 @@ sub_menu = [
 ]
 ```
 
-Tree function
+#### Tree function
 - In this function, I used a a loop to print out each layer of the tree, they. all had a different format so I had to change variables as I went trhough the loop.
 - There was a different number of spaces of and stars that were changed throughout the function
 
