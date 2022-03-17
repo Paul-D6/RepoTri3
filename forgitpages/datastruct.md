@@ -2,7 +2,7 @@
 
 ## Replit
 
-##### [Website](https://replit.com/@PaulDiPasquale/algorithms#main.py)
+##### [Website](https://replit.com/@PaulDiPasquale/RepoTri3#main.py)
 
 ##### Replit at bottom of page
 
