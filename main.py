@@ -4,6 +4,7 @@
 # abstracted files in a folder (aka module)
 from challenges import animate
 from challenges import tree
+from challenges import datalists
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
@@ -12,13 +13,15 @@ from challenges import tree
 main_menu = [
   ["Swap", "swap.py"],
   ["Matrix", "matrix.py"],
+  ["Fibonacci","fibonacci.py"],
 ]
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
 sub_menu = [
   ["Christmas Tree", tree.main],
-  ["Animation", animate.main]
+  ["Animation", animate.main],
+  ["Dataloops", datalists.main]
 ]
 
 patterns_sub_menu = [

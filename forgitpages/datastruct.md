@@ -2,10 +2,10 @@
 
 ## Replit
 
-##### [Website](https://replit.com/@PaulDiPasquale/algorithms#main.py)
+##### [Website](https://replit.com/@PaulDiPasquale/RepoTri3#main.py)
 
-##### Replit at bottom of page
 
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3?embed=true" >
 
 #### Menu Bar
 - This is my menu bar where I added all my functions from different files of my replit
@@ -48,5 +48,3 @@ def main():
 if __name__ == "__main__":
     main() 
    ```
-
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3?embed=true" >
