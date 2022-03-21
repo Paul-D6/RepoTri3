@@ -5,7 +5,8 @@
 ##### [Website](https://replit.com/@PaulDiPasquale/RepoTri3#main.py)
 
 
-<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3?embed=true" >
+{% include replit.html %}
+
 
 #### Menu Bar
 - This is my menu bar where I added all my functions from different files of my replit
@@ -48,3 +49,40 @@ def main():
 if __name__ == "__main__":
     main() 
    ```
+
+### Loops and List printing
+- This function outputs multiple loops in different ways as it takes the data in the lists
+```
+def for_loop():
+    for n in range(len(InfoDb)):
+        print_data(n)
+# while loop contains an initial n and an index incrementing statement (n += 1)
+def while_loop(n):
+    while n < len(InfoDb):
+        print_data(n)
+        n += 1
+    return
+def recursive_loop(n):
+    if n < len(InfoDb):
+        print_data(n)
+        recursive_loop(n + 1)
+    return
+```
+
+### Fibonacci
+- This function uses a user input to add numbers and create and out put. This is done using multiple funcitons and a loop.
+```
+def calc_series(self):
+        limit = self._series
+        f = [0, 1]  # fibonacci starting array/list
+        while limit > 0:
+            self.set_data(f[0])
+            f = [f[1], f[0] + f[1]]
+            limit -= 1
+
+    """Method/Function to set Fibonacci data: list, dict, and dictID are instance variables of Class"""
+    def set_data(self, num):
+        self._list.append(num)
+        self._dict[self._dictID] = self._list.copy()
+        self._dictID += 1
+```
