@@ -2,27 +2,41 @@
 # Imports typically listed at top
 # each import enables us to use logic that has been abstracted to other files and folders
 # abstracted files in a folder (aka module)
-from challenges import animate
-from challenges import tree
-from challenges import datalists
 
 # Main list of [Prompts, Actions]
 # Two styles are supported to execute abstracted logic
 # 1. file names will be run by exec(open("filename.py").read())
 # 2. function references will be executed directly file.function()
-main_menu = [
-  ["Swap", "swap.py"],
-  ["Matrix", "matrix.py"],
-  ["Fibonacci","fibonacci.py"],
-]
+from week0 import animate
+from week0 import matrix
+from week0 import swap
+from week0 import tree
+from week1 import datalists
+from week1 import fibonacci
+from week2 import factorial
+from week2 import mathfunc
+
+
+
+main_menu = []
 
 # Submenu list of [Prompt, Action]
 # Works similarly to main_menu
-sub_menu = [
-  ["Christmas Tree", tree.main],
-  ["Animation", animate.main],
-  ["Dataloops", datalists.main]
+sub_menu1 = [
+  ["Lists&Loops", datalists.main],
 ]
+sub_menu2 = [
+  ["Matrix", matrix.matrix],
+  ["Swap", swap.swap],
+  ["Fibonacci", fibonacci.main],
+  ["MathFunc", mathfunc.main],
+  ["Factorial", factorial.main],
+]
+sub_menu3 = [
+  ["Tree", tree.main],
+  ["Animation", animate.main],
+]
+
 
 patterns_sub_menu = [
 ]
@@ -65,16 +79,26 @@ def patterns_submenuc():
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Other", submenu])
+    menu_list.append(["Data", submenu1])
+    menu_list.append(["Math", submenu2])
+    menu_list.append(["Adventure", submenu3])
     # menu_list.append(["Patterns", patterns_submenu])
     buildMenu(title, menu_list)
 
 # def submenu
 # using sub menu list above:
 # sub_menu works similarly to menu()
-def submenu():
-    title = "Function Submenu" + banner
-    buildMenu(title, sub_menu)
+def submenu1():
+    title = "Data" + banner
+    buildMenu(title, sub_menu1)
+def submenu2():
+    title = "Math" + banner
+    buildMenu(title, sub_menu2)
+def submenu3():
+    title = "Adventure" + banner
+    buildMenu(title, sub_menu3)
+
+  
 def patterns_submenu():
     title = "Function Submenu" + banner
     buildMenu(title, patterns_sub_menu)

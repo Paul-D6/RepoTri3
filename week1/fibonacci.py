@@ -48,7 +48,7 @@ class Fibonacci:
 
 
 # Tester Code
-if __name__ == "__main__":
+def main():
     '''Value for testing'''
     n = int(input("Choose a number:"))
     '''Constructor of Class object'''
@@ -61,3 +61,6 @@ if __name__ == "__main__":
     '''Using method to get data from object'''
     for i in range(n):
         print(f"Fibonacci sequence {i + 1} = {fibonacci.get_sequence(i)}")
+
+if __name__ == "__main__":
+  main()
