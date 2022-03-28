@@ -32,6 +32,19 @@
 - - Giving citizens control of scientific research as long as it isn’t too demanding so the actual scientists can collect the data and use it
 - Crowdsourcing
 - - Gaining information and data by obtaining the services of a large group of people
+### 5.5
+- In terms of legal and ethical concerns, there can be copyrights and protection of intellectual property.
+- To go deeper into copyrights (legal copyrighting):
+- - Creative Commons
+- - Open source
+- - Open Access
+### 5.6
+- Safe computing techniques would be understanding how to only distribute information that is not personal to you and is not needed by the program. This can be your social security number, which if given, can result in identity theft.
+- Things like Keyloggers, Phising, and Rogue Access Points can also be detrimental to the user.
+- Keylogger logs your keystrokes on your keyboard which is usually used to get a password.
+- Phishing: usually sent in emails, click on a link, and you're likely going to lose access of your computer.
+
+
 ### Question Responses
 - 5.1
 - - A benefit is people can use computers to supplement life skills so they will not have to do it. The downside in this is, is that people will become reliant on computers and some people might loose their job.

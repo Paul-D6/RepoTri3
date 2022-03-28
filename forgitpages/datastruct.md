@@ -86,3 +86,57 @@ def calc_series(self):
         self._dict[self._dictID] = self._list.copy()
         self._dictID += 1
 ```
+### Menu organization
+- I used submenus to organize the user navigation to different functions. I created the menus, appended the menu and created a function for eachmenu to display the different functions
+
+```
+sub_menu1 = [
+  ["Lists&Loops", datalists.main],
+]
+sub_menu2 = [
+  ["Matrix", matrix.matrix],
+  ["Swap", swap.swap],
+  ["Fibonacci", fibonacci.main],
+  ["MathFunc", mathfunc.main],
+  ["Factorial", factorial.main],
+]
+sub_menu3 = [
+  ["Tree", tree.main],
+  ["Animation", animate.main],
+  ["Palidrome", palindrome.main],
+]
+```
+
+### Math functions
+- I added a GCF and Factorial function which both run an algorithm using an input to create an output(number)
+
+```
+class GCD:
+  def __init__(self):
+        self.factor = [0, 1]
+  def __call__(self, num1, num2):
+      if num1 == 0:
+          return num1
+      while num2 != 0:
+          if num1 > num2:
+              num1 = num1 - num2
+          else:
+              num2 = num2 - num1
+      return num1
+
+class Factorial:
+    def __init__(self):
+        self.factor = [0, 1]
+    def __call__(self, n):
+        num = 1
+        
+        for i in range(1,n+1):
+        	num = num * i
+
+        return num
+      
+def main():
+  b = int(input("Choose a number:"))
+  fibo_of = Factorial() # object instantiation and run __init__ method
+  print(fibo_of(b))
+```
