@@ -15,6 +15,8 @@ from week1 import datalists
 from week1 import fibonacci
 from week2 import factorial
 from week2 import mathfunc
+from week2 import palindrome
+
 
 
 
@@ -35,6 +37,7 @@ sub_menu2 = [
 sub_menu3 = [
   ["Tree", tree.main],
   ["Animation", animate.main],
+  ["Palidrome", palindrome.main],
 ]
 
 
