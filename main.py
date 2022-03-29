@@ -16,6 +16,7 @@ from week1 import fibonacci
 from week2 import factorial
 from week2 import mathfunc
 from week2 import palindrome
+from week3 import clear
 
 
 
@@ -117,6 +118,7 @@ def buildMenu(banner, options):
 
     # get user choice
     choice = input("Type your choice> ")
+    clear.clearConsole()
 
     # validate choice and run
     # execute selection
