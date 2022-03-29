@@ -28,7 +28,7 @@ sub_menu1 = [
   ["Lists&Loops", datalists.main],
 ]
 sub_menu2 = [
-  ["Matrix", matrix.matrix],
+  ["Matrix\u001b[37;1m", matrix.matrix],
   ["Swap", swap.swap],
   ["Fibonacci", fibonacci.main],
   ["MathFunc", mathfunc.main],
@@ -41,9 +41,6 @@ sub_menu3 = [
 ]
 
 
-patterns_sub_menu = [
-]
-
 # Menu banner is typically defined by menu owner
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
@@ -53,7 +50,6 @@ def menuc():
     title = "Class Menu" + banner
     menu_list = main_menu.copy()
     menu_list.append(["Math", submenuc])
-    menu_list.append(["Patterns", patterns_submenuc])
     m = questy.Menu(title, menu_list)
     m.menu()  # method and data reside in object
 
