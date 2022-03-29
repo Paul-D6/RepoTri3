@@ -28,7 +28,7 @@ sub_menu1 = [
   ["Lists&Loops", datalists.main],
 ]
 sub_menu2 = [
-  ["Matrix\u001b[37;1m", matrix.matrix],
+  ["Matrix", matrix.matrix],
   ["Swap", swap.swap],
   ["Fibonacci", fibonacci.main],
   ["MathFunc", mathfunc.main],
@@ -78,9 +78,9 @@ def patterns_submenuc():
 def menu():
     title = "Function Menu" + banner
     menu_list = main_menu.copy()
-    menu_list.append(["Data", submenu1])
-    menu_list.append(["Math", submenu2])
-    menu_list.append(["Adventure", submenu3])
+    menu_list.append(["\u001b[32;1mData\u001b[0m", submenu1])
+    menu_list.append(["\u001b[35;1mMath\u001b[37;1m", submenu2])
+    menu_list.append(["\u001b[36;1mAdventure\u001b[37;1m", submenu3])
     # menu_list.append(["Patterns", patterns_submenu])
     buildMenu(title, menu_list)
 
