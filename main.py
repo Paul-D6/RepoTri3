@@ -18,9 +18,6 @@ from week2 import mathfunc
 from week2 import palindrome
 from week3 import clear
 
-
-
-
 main_menu = []
 
 # Submenu list of [Prompt, Action]
@@ -41,35 +38,9 @@ sub_menu3 = [
   ["Palidrome", palindrome.main],
 ]
 
-
 # Menu banner is typically defined by menu owner
 border = "=" * 25
 banner = f"\n{border}\nPlease Select An Option\n{border}"
-
-
-def menuc():
-    title = "Class Menu" + banner
-    menu_list = main_menu.copy()
-    menu_list.append(["Math", submenuc])
-    m = questy.Menu(title, menu_list)
-    m.menu()  # method and data reside in object
-
-
-# def submenuc
-# using sub_menu list:
-# submenuc works similarly to menuc
-def submenuc():
-    title = "Class Submenu" + banner
-    m = questy.Menu(title, sub_menu)
-    m.menu()
-
-# def patterns_submenuc
-# using patterns_sub_menu list:
-# patterns_submenuc works similarly to menuc
-def patterns_submenuc():
-    title = "Class Submenu" + banner
-    m = questy.Menu(title, patterns_sub_menu)
-    m.menu()
 
 
 # def menu
@@ -107,7 +78,7 @@ def buildMenu(banner, options):
     # header for menu
     print(banner)
     # build a dictionary from options
-    prompts = {0: ["Exit", None]}
+    prompts = {0: ["\u001b[31mExit\u001b[37m", None]}
     for op in options:
         index = len(prompts)
         prompts[index] = op
