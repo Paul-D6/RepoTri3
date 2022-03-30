@@ -12,7 +12,7 @@
 - This is my menu bar where I added all my functions from different files of my replit
 - There is also a submenu that will access the code from a file called "Challenges"
 
-```
+```py
 main_menu = [
   ["Swap", "swap.py"],
   ["Matrix", "matrix.py"],
@@ -30,7 +30,7 @@ sub_menu = [
 - In this function, I used a a loop to print out each layer of the tree, they. all had a different format so I had to change variables as I went trhough the loop.
 - There was a different number of spaces of and stars that were changed throughout the function
 
-```
+```py
 def main():
   stars = 1
   numspace = 5
@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
 ### Loops and List printing
 - This function outputs multiple loops in different ways as it takes the data in the lists
-```
+```py
 def for_loop():
     for n in range(len(InfoDb)):
         print_data(n)
@@ -71,7 +71,7 @@ def recursive_loop(n):
 
 ### Fibonacci
 - This function uses a user input to add numbers and create and out put. This is done using multiple funcitons and a loop.
-```
+```py
 def calc_series(self):
         limit = self._series
         f = [0, 1]  # fibonacci starting array/list
@@ -89,7 +89,7 @@ def calc_series(self):
 ### Menu organization
 - I used submenus to organize the user navigation to different functions. I created the menus, appended the menu and created a function for eachmenu to display the different functions
 
-```
+```py
 sub_menu1 = [
   ["Lists&Loops", datalists.main],
 ]
@@ -110,7 +110,7 @@ sub_menu3 = [
 ### Math functions
 - I added a GCF and Factorial function which both run an algorithm using an input to create an output(number)
 
-```
+```py
 class GCD:
   def __init__(self):
         self.factor = [0, 1]
