@@ -17,7 +17,6 @@ from week2 import factorial
 from week2 import mathfunc
 from week2 import palindrome
 from week3 import clear
-from week3 import numberguess
 
 main_menu = []
 
@@ -37,7 +36,6 @@ sub_menu3 = [
   ["Tree", tree.main],
   ["Animation", animate.main],
   ["Palidrome", palindrome.main],
-  ["Number Guessing", numberguess.Player],
 ]
 
 # Menu banner is typically defined by menu owner
