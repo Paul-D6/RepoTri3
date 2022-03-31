@@ -6,14 +6,12 @@
 
 ## Week 0
 
-- [5.1 & 5.2 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_1notes)
+- [5.1 & 5.2 Notes + Actions](https://paul-d6.github.io/RepoTri3/notes/notes5_12)
 
 ## Week 1
 
-- [5.3 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_3notes)
-- [5.4 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_4notes)
+- [5.3 & 5.4 Notes + Actions](https://paul-d6.github.io/RepoTri3/notes/notes5_34)
 
 ## Week 2
 
-- [5.5 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_5notes)
-- [5.6 Notes + Actions](https://rohitd3.github.io/rohit-csp3/notes/5_6notes)
+- [5.5 & 5.6 Notes + Actions](https://paul-d6.github.io/RepoTri3/notes/notes5_56)
