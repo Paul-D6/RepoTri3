@@ -5,7 +5,7 @@
 ##### [Website](https://replit.com/@PaulDiPasquale/RepoTri3#main.py)
 
 
-{% include replit.html %}
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@PaulDiPasquale/RepoTri3?embed=true"></iframe>
 
 
 #### Menu Bar
