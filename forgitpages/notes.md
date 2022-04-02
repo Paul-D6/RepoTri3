@@ -1,7 +1,5 @@
 {% include navbar.html %}
 
-{% include navbar.html %}
-
 # Notes for CollegeBoard Big Ideas
 
 ## Week 0
