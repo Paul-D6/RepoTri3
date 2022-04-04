@@ -60,7 +60,6 @@ def main():
 
     '''Using method to get data from object'''
     for i in range(n):
-        print(f"Fibonacci sequence {i + 1} = {fibonacci.get_sequence(i)}")
-
+        print(f"Fibonacci sequence {i + 1} = {fibonacci.get_sequence(i)}") 
 if __name__ == "__main__":
   main()
