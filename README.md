@@ -20,8 +20,9 @@
 
 Week | Name | Ticket
 ------|-----|-----|
-Week 0 | Plans, Teams, Jobs | [Week 0](https://github.com/Paul-D6/RepoTri3/issues/1)
+Week 0 | Plans, Teams, Jobs | [Ticket](https://github.com/Paul-D6/RepoTri3/issues/1)
 Week 1 | Lists and Loops | [Week 1](https://github.com/Paul-D6/RepoTri3/issues/4)
-Week 2 | Classy Functions | [Week 2](https://github.com/Paul-D6/RepoTri3/issues/6)
-Week 3 | Algorithmic Final |[Week 3](https://github.com/Paul-D6/RepoTri3/issues/7)
-Week 4 | Accounts and Login |[Week 4](https://github.com/Paul-D6/RepoTri3/issues/8)
+Week 2 | Classy Functions | [Ticket](https://github.com/Paul-D6/RepoTri3/issues/6)
+Week 3 | Algorithmic Final |[Ticket](https://github.com/Paul-D6/RepoTri3/issues/7)
+Week 4 | Accounts and Login |[Ticket](https://github.com/Paul-D6/RepoTri3/issues/8)
+Week 5 | CB Prep |[Ticket](https://github.com/Paul-D6/RepoTri3/issues/9)
