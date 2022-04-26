@@ -11,34 +11,69 @@
 - - [x] Calls to your student-developed procedure: the "next" button will switch to different question and allow the user to decide on the next book they want to add
 - - [x] Instructions for output (tactile, audible, visual, or textual) based on input program functionality: The output will be a textual list of books that the user created
 - [Video](https://www.youtube.com/watch?v=TzYFZ9aklUA)
-# Free Response questions
+
+
+# Create Task Written Responses
+
 Part A:
-Part | Question | Answer | 
-|------- | -------- | ---- |
-I | Describe the overall purpose of the program | The overall purpose of the program is to produce a list for the user that has the books that they like. This list can be used a reference to find books they like. |
-II | Describe what part of the program is being shown in the video | The part in the program that is being shown is the the part where the input is taken and goes into whatever route it follows. It shows the conditions that have to be met for the program to go certain routes to produce an output. |
-III | Describes the input and output of the program demonstrated in the video | The input that is shown is where the user chooses to either add the book to a list or not. After 5 books have been prompted, the output will show the list created for the user |
+Sub-Part | Question | Answer | 
+--- | -------- | --------- |
+i | Describe the overall purpose of the program | The purpose of the program is to provide the user a list of tasks based on the amount of time they have. It will randomly choose these tasks and display them in list|
+ii | Describe what part of the program is being shown in the video |  |
+iii | Describes the input and output of the program demonstrated in the video | |
 
 Part B:
-Part | Question | Answer | 
+Sub-Part | Question | Answer | 
 --- | -------- | --------- |
-I | The first program code segment must show how data have been stored in the list. | The list for Sci-Fi books ```sfbooks = ["Dune", "The Time Machine", "Brave New World", "The Fountain Trilogy", "Eyes of the Void"]```|
-II | The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program’s purpose. |![image](https://cdn.discordapp.com/attachments/749509501773807677/945743260087902258/Screen_Shot_2022-02-22_at_10.05.29_AM.png)|
-III | Identifies the name of the list being used in this response | ```clist``` is a parameter in the function that takes one of the lists and uses it to create a shuffled arrangement of the book category |
-IV | Describes what the data contained in the list represent in your program | The data in the list represents the books being prompted to the user. It is also used to create an output of what the user has selected. |
-V | Explains how the selected list manages complexity in your program code by explaining why your program code could not be written, or how it would be written differently, if you did not use the list | The lists manage the complexity of the program because it stores all the data easily without having to extract it somewhere else. This could be run by an API, although it would be difficult to categorize the genre of each book. |
+i | The first program code segment must show how data have been stored in the list. | ```tasklist = {'Laundry':2,'Clean Fridge':1,'Mow Lawn':3,'Clean dishes':1,'Paint walls':4,'Buy Groceries':3,'Sweep/Mop':4,'Dust':3,'Walk Dog':2, 'Organize Desk':1} # list of tasks```|
+ii | The second program code segment must show the data in the same list being used, such as creating new data from the existing data or accessing multiple elements in the list, as part of fulfilling the program’s purpose. | ```createlist(choice, tasklist))``` ```createlist(num, mylist): # the function``` ```task, thour = random.choice(list(mylist.items()))```|
+
+B Sub-part iii-v
+Sub-Part | Question | Answer | 
+--- | -------- | --------- |
+iii | Identifies the name of the list being used in this response | ```tasklist``` is the name of the dictionary being used |
+iv | Describes what the data contained in the list represent in your program | The Data contained in the dictionary represents different tasks and their hours attached to them. Both of these values are used throughout the program |
+v | Explains how the selected list manages complexity in your program code by explaining why your program code could not be written, or how it would be written differently, if you did not use the list | If this list was not included in the program, the program would not be able to run. This is due to the part where the list is called and uses the values to create a new list of tasks. |
 
 Part C:
-Part | Question | Answer | 
+Sub-Part | Question | Answer | 
 --- | -------- | --------- |
-I | The first program code segment must be a student-developed procedure that: Defines the procedure’s name and return type (if necessary), contains and uses one or more parameters that have an effect on the functionality of the procedure, and implements an algorithm that includes sequencing, selection and iteration | ![image](https://cdn.discordapp.com/attachments/749509501773807677/945741909127753758/Screen_Shot_2022-02-22_at_9.58.09_AM.png) |
-II | The second program code segment must show where your student-developed procedure is being called in your program | Runs the function with its own specific parameter ![image](https://cdn.discordapp.com/attachments/749509501773807677/945741909509427200/Screen_Shot_2022-02-22_at_9.58.57_AM.png) |
-III |  Describes in general what the identified procedure does and how it contributes to the overall functionality of the program| This procedure basically prompts the user with a book and the option to add it to the list or not. It starts of by taking the parameter that is chosen by the user and uses it to shuffle the books to prompt the user. It then creates the first question ```currentQuestion```. It also decides what the button "to move on" will display. |
-IV | Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it. | A genre is chosen in the beginning that a certain function. When this runs, it calls this other procedure that has a list for its parameter along with the starting index. When The procedure runs, it takes the chosen genre list and shuffles it to create a new list. Once the chosen list has been shuffled, the procedure will display the first question in the shuffled list. This allows the user to interact with the prompt. Once a button is clicked to go to the next question, The procedure in ran again although this time with a different index. This chosen index will choose the next question for the user. The way that this index is changed is described in Part D. |
+i | The first program code segment must be a student-developed procedure that: Defines the procedure’s name and return type (if necessary), contains and uses one or more parameters that have an effect on the functionality of the procedure, and implements an algorithm that includes sequencing, selection and iteration | Shown Below |
+```
+def createlist(num, mylist):
+  hours = 0
+  finlist = []
+  while hours != num:
+    task, thour = random.choice(list(mylist.items()))
+    space = num - hours # Amount of hours that can still be added to list
+    if thour <= space and task not in finlist: # don't repeat tasks
+      if thour >= 2 and space >= 2: # Prioritizes over tasks that take longer so the "1"s can fill in the rest
+        finlist.append(task)
+        hours += thour
+      if thour == 1 and space <= 3:
+        finlist.append(task + "(Quick)")
+        hours += thour
+  return finlist
+```
+ii | The second program code segment must show where your student-developed procedure is being called in your program | Runs the function with its own specific parameter! Example Down Below |
+```
+main():
+....other code....
+  if 1 <= choice <= 24 :
+    print("Your list: ", createlist(choice, tasklist))
+  else:
+    print("Please select a number 1-8\n\n")
+    main()
+```
+C Sub-part iii & iv
+Sub-Part | Question | Answer | 
+--- | -------- | --------- |
+iii |  Describes in general what the identified procedure does and how it contributes to the overall functionality of the program| This procedure returns a list of tasks based off its parameter given. The function is called when the user inputs an integer in a specific range. The function will use the list and user input to return a list of tasks..|
+iv | Explains in detailed steps how the algorithm implemented in the identified procedure works. Your explanation must be detailed enough for someone else to recreate it. | The algorithm runs a loop of finding random tasks in the list provided and adding them to a new list if it can. It starts off by identifying the name and value of the randomly selected element in the list. It then calculates the amount of hours that are available in the new list. If the chosen task has a value too large for this calculation or the task was already added to the new list, the loop runs again. Once these conditions are met, the program prioritizes over the larger valued tasks first it can use the smaller tasks to fill in any extra time. These conditions include how large the value is, and how many hours are left in the new list(Calculation mentioned earlier). The loop will stop once the hours are filled up and a new list is created.|
 
 Part D:
-Part | Question | Answer | 
+Sub-Part | Question | Answer | 
 --- | -------- | --------- |
-I | Describes two calls to the procedure identified in written response3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute. | ![image](https://cdn.discordapp.com/attachments/749509501773807677/945741908720894042/Screen_Shot_2022-02-22_at_12.52.12_AM.png) |
-II |  Describes what condition(s) is being tested by each call to the procedure | Condition of first: One of the options have to be selected and it the option has to be the right answer(add to wishlist); Second: One of the options have to be selected and the answer cannot be "yes"|
-III | Identifies the result of each call | Result of First: If the conditions are met, the question/book will be added to the wishlist. The index of the questions will be added by 1 ; Second: Just the index of the questions will be added by 1.|
+i | Describes two calls to the procedure identified in written response3c. Each call must pass a different argument(s) that causes a different segment of code in the algorithm to execute. | Condition 1: ```if thour >= 2 and space >= 2:``` Condition 2:```if thour == 1 and space <= 3:```|
+ii |  Describes what condition(s) is being tested by each call to the procedure | Condition #1: The value of the randomly selected task is greater than or equal to 2 AND there is enough space(hrs) to add it into the new list.;Condition #2: The value of the randomly selected task is equal to 1 AND there is a small amount of space(hrs) to add it into the new list.|
+ii | Identifies the result of each call | Result #1: If the conditions are met, the task will be added to the the new list. More space in the list will be occupied.; Result #2 If the conditions are met, the task will be added to the the new list with an extra note. A small amount of space in the list will be occupied.; |
