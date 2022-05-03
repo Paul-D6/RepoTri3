@@ -1,3 +1,5 @@
+{% include navbar.html %}
+
 # Quiz Score/Corrections
 ## First Quiz 45/50
 - Question 8: I thought that storing the information from a user ensured that the information is protected from misuse.

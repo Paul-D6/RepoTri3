@@ -25,4 +25,5 @@ Week 1 | Lists and Loops | [Week 1](https://github.com/Paul-D6/RepoTri3/issues/4
 Week 2 | Classy Functions | [Ticket](https://github.com/Paul-D6/RepoTri3/issues/6)
 Week 3 | Algorithmic Final |[Ticket](https://github.com/Paul-D6/RepoTri3/issues/7)
 Week 4 | Accounts and Login |[Ticket](https://github.com/Paul-D6/RepoTri3/issues/8)
-Week 5 | CB Prep |[Ticket](https://github.com/Paul-D6/RepoTri3/issues/9)
+Week 5 | CB Prep 1 |[Ticket](https://github.com/Paul-D6/RepoTri3/issues/9)
+Week 7 | CB Prep 2 | [Ticket](https://github.com/Paul-D6/RepoTri3/issues/10)
