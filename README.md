@@ -27,3 +27,4 @@ Week 3 | Algorithmic Final |[Ticket](https://github.com/Paul-D6/RepoTri3/issues/
 Week 4 | Accounts and Login |[Ticket](https://github.com/Paul-D6/RepoTri3/issues/8)
 Week 5 | CB Prep 1 |[Ticket](https://github.com/Paul-D6/RepoTri3/issues/9)
 Week 7 | CB Prep 2 | [Ticket](https://github.com/Paul-D6/RepoTri3/issues/10)
+Week 8 | CB Prep 3 | [Ticket](https://github.com/Paul-D6/RepoTri3/issues/12)
