@@ -15,3 +15,15 @@
 - Question 24: I forgot that redudancy can be useful if part of a network breaks down. Using redundancy can avoid the loss of connection.
 - Question 41: I thought that the sum of the total transaction amounts were known.
 - Question 48: I got lossless and lossy mixed up
+## Third Quiz 39/50
+- Question 17: Version I calls the GetPrediction procedure once for each element of idList, or four times total. Since each call requires 1 minute of execution time, version I requires approximately 4 minutes to execute.
+- Question 18: I did not think it was referring to public key
+- Question 19: I thought it was 2 coin flips
+- Question 20: I did not think that computers can make approximates
+- Question 22: I did not know what the Internet Engineering Task Force was
+- Question 35: I looked at the diagram incorrectly
+- Question 40: I did not know what constants were used for
+- Question 42: I did not know what crowdsourcing was
+- Question 43: I was not reading the answers carefully
+- Question 44: I did not know what rogue access point was
+- Question 45: I did not think it was ok for the function to keep printing the average as the program went on.
